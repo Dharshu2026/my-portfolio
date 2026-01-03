@@ -27,13 +27,6 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: FolioOne
-  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
-  * Updated: Aug 23 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="services-page">
@@ -41,17 +34,13 @@
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <img src="assets/img/logo.webp" alt="">
-      <h1 class="sitename">FolioOne</h1> 
-    </a> -->
 
       <nav id="navmenu" class="navmenu">
         <ul>
          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Me</a></li>
-          <li><a href="resume.html" class="active">Portfolio</a></li>
-          <li><a href="services.html">My Expertise</a></li>
+          <li><a href="resume.html" >Portfolio</a></li>
+                    <li><a href="services.html">My Projects</a></li>
           <!-- <li><a href="portfolio.html">Portfolio</a></li>
          -->
           <li><a href="contact.html">Get In Touch</a></li>
@@ -59,102 +48,82 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
-      
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
+     <div class="header-social-links">
+  <a href="https://github.com/Dharshu2026" target="_blank" class="github">
+    <i class="bi bi-github"></i>
+  </a>
+
+  <a href="https://linkedin.com/in/dharshana-m-s-99a8b2248" target="_blank" class="linkedin">
+    <i class="bi bi-linkedin"></i>
+  </a>
+
+  
+</div>
 
     </div>
   </header>
 
-  <main class="main">
+<main class="main">
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
+  <section id="projects" class="services section">
 
-     <!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>What I Do</h2>
-  <p>I create responsive, visually appealing, and functional web experiences through clean design and efficient code.</p>
-</div><!-- End Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>My Projects</h2>
+      <p>Practical applications and web solutions built using my technical expertise.</p>
+    </div><div class="container" data-aos="fade-up" data-aos-delay="100">
 
-<div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center g-5">
 
-  <div class="row justify-content-center g-5">
+        <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+          <div class="service-item">
+            <div class="service-icon">
+              <i class="bi bi-bicycle"></i>
+            </div>
+         <div class="service-content">
+  <h3>WheelzOn - Bike Rental System</h3>
+  <p>
+    <strong>Project Overview:</strong> A full-stack bike rental solution designed to streamline the booking process through a modern web interface.
+  </p>
+  
+  <ul style="font-size: 14px; list-style: none; padding: 0;">
+    <li><i class="bi bi-check-circle-fill me-2" style="color: #1387c1;"></i> <strong>Automated Emails:</strong> Integrated <b>Laravel Mail</b> for sending instant booking confirmations to users.</li>
+    <li><i class="bi bi-check-circle-fill me-2" style="color: #1387c1;"></i> <strong>Database Management:</strong> Efficiently handled bike listings and user records using <b>MySQL</b>.</li>
+    <li><i class="bi bi-check-circle-fill me-2" style="color: #1387c1;"></i> <strong>Responsive UI:</strong> Developed with a <b>Bootstrap</b> template for a mobile-first and professional design.</li>
+  </ul>
 
-    <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
-      <div class="service-item">
-        <div class="service-icon">
-          <i class="bi bi-code-slash"></i>
-        </div>
-        <div class="service-content">
-          <h3>Web Development</h3>
-          <p>Building dynamic and user-friendly websites using HTML, CSS, PHP, and Laravel with clean, scalable code.</p>
-          <a href="#" class="service-link">
-            <!-- <span>Learn More</span>
-            <i class="bi bi-arrow-right"></i> -->
-          </a>
-        </div>
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-md-6" data-aos="fade-left" data-aos-delay="100">
-      <div class="service-item">
-        <div class="service-icon">
-          <i class="bi bi-layout-text-window"></i>
-        </div>
-        <div class="service-content">
-          <h3>Frontend Design</h3>
-          <p>Crafting responsive layouts that deliver smooth user experiences across all devices using modern UI principles.</p>
-          <!-- <a href="#" class="service-link">
-
-            <i class="bi bi-arrow-right"></i>
-          </a>  -->
-        </div> 
-      </div> 
-    </div><!-- End Service Item -->
-
-    <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
-      <div class="service-item">
-        <div class="service-icon">
-          <i class="bi bi-brush"></i>
-        </div>
-        <div class="service-content">
-          <h3>Banner & Graphic Design</h3>
-          <p>Designing clean and minimal banner creatives using Photoshop to enhance brand visuals and web aesthetics.</p>
-          <a href="#" class="service-link">
-            <!-- <span>Learn More</span>
-            <i class="bi bi-arrow-right"></i> -->
-          </a>
-        </div>
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
-      <div class="service-item">
-        <div class="service-icon">
-          <i class="bi bi-server"></i>
-        </div>
-        <div class="service-content">
-          <h3>Backend Development</h3>
-          <p>Building secure and efficient backend systems using Laravel and MySQL to handle data and server logic seamlessly.</p>
-          <a href="#" class="service-link">
-            <!-- <span>Learn More</span>
-            <i class="bi bi-arrow-right"></i> -->
-          </a>
-        </div>
-      </div>
-    </div><!-- End Service Item -->
-
+  <div class="mt-4">
+    <a href="http://dharshu-wheelzon.rf.gd" target="_blank" class="btn btn-outline-primary" style="border-radius: 50px; border-color: #1387c1; color: #1387c1;">
+      <span>View Live Demo</span>
+      <i class="bi bi-arrow-up-right"></i>
+    </a>
   </div>
-
 </div>
+          </div>
+        </div>
+        
+       <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+  <div class="service-item">
+    <div class="service-icon">
+      <i class="bi bi-person-badge" style="color: #1387c1;"></i>
+    </div>
+    <div class="service-content">
+      <h3>Personal Portfolio Website</h3>
+      <p>A highly responsive portfolio developed using <strong>Bootstrap 5 and AOS</strong>. Focused on modern UI/UX principles to showcase my journey and skills.</p>
+      
+      <ul style="font-size: 14px; list-style: none; padding: 0;">
+        <li><i class="bi bi-check-circle-fill me-2" style="color: #1387c1;"></i> <strong>Responsiveness:</strong> Mobile-first design for all devices.</li>
+        <li><i class="bi bi-check-circle-fill me-2" style="color: #1387c1;"></i> <strong>Animations:</strong> Smooth scrolling effects using AOS library.</li>
+      </ul>
 
-    </section><!-- /Services Section -->
-
-  </main>
-
+      <a href="index.html" class="btn btn-outline-primary mt-3" style="border-radius: 50px; color: #1387c1; border-color: #1387c1;">
+        <span>View Project</span>
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+      
+  </section></main>
   <footer id="footer" class="footer">
 
    
